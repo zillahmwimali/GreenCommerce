@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Events Web App
+
+This is a web application designed to manage and display events. 
+
+It is built with Next.js, a popular React framework for server-side rendering, and Tailwind CSS, a utility-first CSS framework. 
+
+The application includes features such as event listings, calendars, event details, and user profile.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, you will need to have Node.js installed on your machine. 
+
+Once you have Node.js installed, you can clone this repository and install the necessary dependencies by running the following commands in your terminal:
+
+### git clone https://github.com/your-username/events-web-app.git
+```bash
+cd events-web-app
+```
+then;
+
+```bash
+npm install
+```
+
+Once the dependencies are installed, you can start the development server by running:
 
 ```bash
 npm run dev
@@ -12,15 +32,15 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at http://localhost:3000. You can open this URL in your browser to view the application.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Contributing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+If you'd like to contribute to this project, please fork the repository and make your changes on a feature branch. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Once you've made your changes, submit a pull request and we will review your changes.
+
 
 ## Learn More
 
