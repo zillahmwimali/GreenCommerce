@@ -10,7 +10,7 @@ To get started with this project, you will need to have Node.js installed on you
 
 Once you have Node.js installed, you can clone this repository and install the necessary dependencies by running the following commands in your terminal:
 
-### git clone https://github.com/your-username/events-web-app.git
+### git clone https://github.com/your-username/farmer-app.git
 ```bash
 cd t4U
 ```
