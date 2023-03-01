@@ -1,10 +1,8 @@
-## Events Web App
+## GreenCommerce
 
-This is a web application designed to manage and display events. 
-
+This is an ecommerce website that connects farmers with vendors and buyers, built with Next.js and Tailwind CSS.
 It is built with Next.js, a popular React framework for server-side rendering, and Tailwind CSS, a utility-first CSS framework. 
 
-The application includes features such as event listings, calendars, event details, and user profile.
 
 ## Getting Started
 
@@ -14,7 +12,7 @@ Once you have Node.js installed, you can clone this repository and install the n
 
 ### git clone https://github.com/your-username/events-web-app.git
 ```bash
-cd events-web-app
+cd t4U
 ```
 then;
 
@@ -37,7 +35,7 @@ This will start the development server at http://localhost:3000. You can open th
 
 ## Contributing
 
-If you'd like to contribute to this project, please fork the repository and make your changes on a feature branch. 
+If you find any issues or have suggestions for improvement or would like to contribute to this project, please fork the repository and make your changes on a feature branch. 
 
 Once you've made your changes, submit a pull request and we will review your changes.
 
