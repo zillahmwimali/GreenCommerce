@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from '../../public/Images/logo.png'
+import logo from '../../public/Images/freshfarm.png'
 
 
 function Header() {
@@ -13,10 +13,57 @@ function Header() {
 
                     <div className='w-[12rem] max-w-full'>
                         <a href="#">
-                            <img src="profilePic" alt="logo" className='w-full' />
+                            <img src="https://t3.ftcdn.net/jpg/03/38/96/32/360_F_338963211_ci8ZBNaZaFbGAQSi5MxSXtv5mzGE55eX.jpg" alt="logo" className='w-full' />
                         </a>
 
                     </div>
+
+                                {/* --menu-- */}
+
+                    <div className='flex, w-full items-center justify-between'>
+                            <nav className='absolute right-0 top-[90px] w-full max-w-[350px] rounded-lg border-blue-200 bg-white py-5 px-6 shadow-lg shadow-blue-400/5 transition-all lg:static lg:block lg:max-w-full lg:border-none lg:shadow-none lg:bg-transparent lg:px-0 lg:py-0'>
+
+                                <ul className='flex flex-col justify-center gap-8 lg:flex-row'>
+                                    <li>
+                                        <a href='#' className='text-lg font-medium text-slate-700 duration-200 hover:text-[#48BF59] lg:text-base'> 
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='#'className='text-lg font-medium text-slate-700 duration-200 hover:text-[#48BF59] lg:text-base'> 
+                                            About
+                                        </a>
+                                    </li><li>
+                                        <a href='#' className='text-lg font-medium text-slate-700 duration-200 hover:text-[#48BF59] lg:text-base'> 
+                                            Services 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='#' className='text-lg font-medium text-slate-700 duration-200 hover:text-[#48BF59] lg:text-base'> 
+                                            Portfolio
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='#' className='text-lg font-medium text-slate-700 duration-200 hover:text-[#48BF59] lg:text-base'> 
+                                            Blog
+                                        </a>
+                                    </li><li>
+                                        <a href='#' className='text-lg font-medium text-slate-700 duration-200 hover:text-[#48BF59] lg:text-base'> 
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                    </div>
+
+                                {/* --sign up btn-- */}
+
+            <div className='flex'>
+                <a href="" className='mr-10'>
+
+                </a>
+            </div>
 
 
 
